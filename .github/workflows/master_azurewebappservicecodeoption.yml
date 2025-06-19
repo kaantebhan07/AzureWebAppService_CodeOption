@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'AzureWebAppServiceCodeOption'
           slot-name: 'Production'
-          package: .
+          package: ${{ github.workspace }}/.net-app
           
